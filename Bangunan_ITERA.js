@@ -1,4 +1,4 @@
-var GedungITERA ={
+var BangunanITERA ={
 "type": "FeatureCollection",
 "name": "Gedung ITERA",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
