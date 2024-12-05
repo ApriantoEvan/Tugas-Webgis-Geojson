@@ -34,6 +34,13 @@
         });
         Esri_WorldImagery.addTo(map);
 
+        var area = L.circle([-5.364234,105.315052], {
+            color: 'red',
+            fillColor: 'red',
+            fillOpacity: 0.1,
+            radius: 2500
+        }).addTo(map);
+
         //<!-- MENAMPILKAN NAMA Labtek 1 -->
         var labtek1 = L.marker([-5.360380, 105.310172]);
         var namalab1 = labtek1.bindPopup("Laboratorium Teknik 1").openPopup()
